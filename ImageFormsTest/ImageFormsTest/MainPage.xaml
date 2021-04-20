@@ -11,7 +11,7 @@
         </Grid.RowDefinitions>
         <Image
             x:Name="TitleImage"
-            effect:ImageEffect.Text="https://res.zzzmh.cn/origin/db995d90880411ebb6edd017c2d2eca2.jpg"
+            
            />
     </Grid>
 </ContentPage>
