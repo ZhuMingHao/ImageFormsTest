@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ImageFormsTest.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:effect="clr-namespace:ImageFormsTest">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image
+            x:Name="TitleImage"
+            effect:ImageEffect.Text="https://res.zzzmh.cn/origin/db995d90880411ebb6edd017c2d2eca2.jpg"
+           />
+    </Grid>
+</ContentPage>
